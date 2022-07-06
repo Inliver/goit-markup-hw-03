@@ -195,7 +195,13 @@ main section:not(:last-child) {
   border-bottom-right-radius: 4px;
 }
 
+.list-team div,
+.list-team img {
+  margin-bottom: 30px;
+}
+
 .list-team h3 {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -209,11 +215,6 @@ main section:not(:last-child) {
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.list-team div,
-.list-team img {
-  margin-bottom: 30px;
 }
 
 .contact-header {
@@ -322,10 +323,6 @@ main section:not(:last-child) {
   flex-wrap: wrap;
 }
 
-.portfolio-item li {
-  border-bottom: 1px solid #eeeeee;
-}
-
 .portfolio-item li:not(:nth-child(3n)) {
   margin-right: 30px;
 }
@@ -334,16 +331,28 @@ main section:not(:last-child) {
   margin-bottom: 30px;
 }
 
+.portfolio-item div {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
 .portfolio-item .title {
   padding: 20xp 24px;
 }
 
 .portfolio-item h2 {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  text-align: left;
 }
 
 .portfolio-item p {
@@ -351,4 +360,17 @@ main section:not(:last-child) {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
