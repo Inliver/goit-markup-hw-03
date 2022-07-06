@@ -53,6 +53,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+section {
+  padding: 94px 0;
+}
 
 header {
   border-bottom: 1px solid #ececec;
@@ -66,6 +69,10 @@ header .conteiner {
 header ul {
   display: flex;
 }
+.hero {
+  padding: 0;
+}
+
 .hero-index {
   font-weight: 900;
   font-size: 44px;
@@ -138,9 +145,6 @@ header .contact {
 main .conteiner {
   flex-direction: column;
 }
-main section:not(:last-child) {
-  margin-bottom: 94px;
-}
 
 .advantage {
   display: flex;
@@ -165,6 +169,9 @@ main section:not(:last-child) {
   letter-spacing: 0.03em;
 }
 
+.works {
+  padding-top: 0;
+}
 .works h2 {
   margin-bottom: 50px;
 }
@@ -182,7 +189,6 @@ main section:not(:last-child) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .team li {
@@ -280,10 +286,15 @@ main section:not(:last-child) {
   text-decoration: none;
 }
 
+.portfolio {
+  padding-top: 247px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
 .portfolio-filter {
   justify-content: center;
   display: flex;
-  margin-top: 247px;
   margin-bottom: 50px;
 }
 
