@@ -332,15 +332,19 @@ main .conteiner {
 .portfolio-item {
   display: flex;
   flex-wrap: wrap;
+  margin: -15px;
 }
 
-.portfolio-item li:not(:nth-child(3n)) {
+.portfolio-item li {
+  margin: 15px;
+}
+/* .portfolio-item li:not(:nth-child(3n)) {
   margin-right: 30px;
-}
+} */
 
-.portfolio-item li:not(:nth-last-child(-n + 3)) {
+/* .portfolio-item li:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
-}
+}  */
 
 .portfolio-item div {
   padding-top: 20px;
